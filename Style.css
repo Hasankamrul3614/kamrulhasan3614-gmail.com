@@ -2,9 +2,10 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
+    color: maroon;
 }
-.Highlight-color{
+.Orange-color{
     color: magenta;
 }
 span{
@@ -13,13 +14,43 @@ span{
 p{
     text-align: justify;
     text-justify: inter-word;
+    width: 100%;
 }
 .half-width{
         width: 40%;
         float: left;
         margin-left: 5%;
-        padding-left: 2%;
+        padding-left: 2%;    
 }
 .half-width img{
     width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( 35deg, lightsalmon, tomato );
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.dream-a{
+    font-weight: bold;
+    color: tomato;
+}
+.blog{
+    box-shadow: 10px 10px 35px gray;
+    border-radius: 5px;
+    height: 250px;
+    
+}
+#it-tra{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#business-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue cyan);
+    border-image-slice: 1;
+
 }
