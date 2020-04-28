@@ -1,6 +1,10 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
+.top{
+    height: 500px;
+    margin-bottom: 90px;
+}
 h1{
     font-size: 45px;
     color: maroon;
@@ -33,24 +37,44 @@ p{
     font-weight: bold;
     border-radius: 10px;
 }
+.dream{
+    height: 300px;
+  
+}
 .dream-a{
     font-weight: bold;
     color: tomato;
+
+}
+.exp{
+    height: 800;
+      
+}
+.exp h2{
+    font-size: 40px;
+    color: teal;
+    font-weight: 800;
 }
 .blog{
     box-shadow: 10px 10px 35px gray;
     border-radius: 5px;
-    height: 250px;
-    
+    height: 250px;  
+}
+#business{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,  green, tomato);
+    border-image-slice: 1;
 }
 #it-tra{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
 }
-#business-dev{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue cyan);
-    border-image-slice: 1;
+.footer p{
+    width: 100%;
+    color: rgb(24, 15, 15);
+    text-align: center;
+    height: 20;
+ }
+ 
 
-}
